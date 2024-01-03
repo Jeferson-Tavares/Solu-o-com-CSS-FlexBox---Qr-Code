@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Montserrat:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 450px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.box img{
+    height: 270px;
+    width: 270px;
+    border-radius: 15px;
+}
+.information h3
+{
+    padding: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.information p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+
+}
